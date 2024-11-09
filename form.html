@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="containers">
+        <div class="form-container">
+            <h2>Resume Builder</h2>
+            <form id="resume-form">
+                <!-- Fields for uploading picture and resume data -->
+                <label for="upload-picture">Upload Picture:</label>
+                <input type="file" id="upload-picture" name="upload-picture" accept="image/*" required>
+                <label for="name"><img src="profile.png" alt="contact" class="contact">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="objective"><img src="obj.png" alt="contact" class="contact">Objective:</label>
+                <textarea id="objective" name="objective" required></textarea>
+                <label for="contact"><img src="contact.png" alt="contact" class="contact">Contact Info:</label>
+                <textarea id="contact" name="contact" required></textarea>
+                <label for="experience"><img src="exp.png" alt="contact" class="contact">Experience:</label>
+                <textarea id="experience" name="experience" required></textarea>
+                <label for="education"><img src="edu.png" alt="contact" class="contact">Education:</label>
+                <textarea id="education" name="education" required></textarea>
+                <label for="skills"><img src="skills.png" alt="contact" class="contact">Skills:</label>
+                <textarea id="skills" name="skills" required></textarea>
+                <label for="projects"><img src="pro.png" alt="contact" class="contact">Projects:</label>
+                <textarea id="projects" name="projects" required></textarea>
+                <label for="certificates"><img src="cer.png" alt="contact" class="contact">Certificates:</label>
+                <textarea id="certificates" name="certificates" required></textarea>
+
+
+                <p>"To format your resume, please click the 'Generate' button. After that, you'll be able to edit your resume."</p>
+                <p>"To bold or italicize text after clicking 'Generate,' select the text you want to format and press Ctrl+B for bold or Ctrl+I for italic."</p>
+
+                <button type="button" id="generate-resume">Generate Resume</button>
+            </form>
+
+            <button class="button"> <a href="index.html" style="color: bisque;">Back</a></button>
+        </div>
+
+
+    </div>
+    <script src="script.js" ></script>
+</body>
+</html>

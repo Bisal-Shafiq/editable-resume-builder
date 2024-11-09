@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bisal Shafiq - Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    
+
+
+    <div class="containers">
+
+        <!-- Two Column Layout -->
+        <div class="row">
+
+            <!-- Left Column (Objective and Contact) -->
+            <div class="left-column">
+                <section class="about" id="about">
+                    <img src="bisal.jpg" alt="Avatar" class="avatar">
+                    <h1>Bisal Shafiq</h1>
+                    <h2>Software Engineer</h2>
+                </section>
+
+                <section class="objective">
+                    <h3>Objective</h3>
+                    <img src="obj.png" alt="obj" class="obj">
+                    <p>Looking to join a company to enhance my skills and grow as a software engineer. Motivated to learn and develop in a reputable firm and explore diverse opportunities for growth.</p>
+                </section>
+
+                <section class="contact" id="contact">
+                    <h3>Contact Info</h3>
+                    <img src="contact.png" alt="con" class="con">
+                    <p><strong>Email:</strong> bisalshafiq4@gmail.com</p>
+                    <p><strong>GitHub:</strong> <a href="https://github.com/Bisal-Shafiq">github.com/Bisal-Shafiq</a></p>
+                    <p><strong>Phone:</strong> +923352529815 / +923193893190</p>
+                </section>
+
+                <section class="certificate" id="certificate">
+                    <h3>Certification</h3>
+                    <img src="cer.png" alt="cer" class="cer">
+                    <p>Certificate in <strong> Information  Technology </strong> and Certificate of 
+                        <strong>Volunteer at Discipline and Event 
+                        Management committee</strong></p>
+                </section>
+
+                <section class="Experience" id="Experience"></section>
+                    <h3>Experience</h3>
+                    <img src="exp.png" alt="cer" class="cer">
+                    <p>Year: 2023</p>
+                        <p><strong>Three Month Intership in SEO (off page)</strong> - SunnyAdi Digital Service Provider</p>
+                </section>
+
+            </div>
+
+            <!-- Right Column (Education, Skills, Projects) -->
+            <div class="right-column">
+                <section class="education" id="education">
+                    <h3>Education</h3>
+                    <img src="edu.png" alt="Toggle" class="toggle-button" onclick="toggleSection('educationDetails')">
+                    <div id="educationDetails">
+                        <p>Year: 2023</p>
+                        <p><strong>BS in Software Engineering</strong> - Jinnah University for Women</p>
+                        <br>
+                        <p>Year: 2018</p>
+                        <p><strong>Intermediate in Pre-Engineering</strong> - Abdullah Govt. College for Women North Nazimabad, Karachi.</p>
+                        <br>
+                        <p>Year: 2016</p>
+                        <p><strong>Matric in Science</strong> - Ali Children Secondary School Karachi.</p>
+                    </div>
+                </section>
+
+                <section class="skills" id="skills">
+                    <h3>Skills</h3>
+                    <img src="skills.png" alt="Toggle" class="toggle-button" onclick="toggleSection('skillsDetails')">
+                    <div id="skillsDetails">
+                        <ul>
+                            <li>Front end/Web Development.</li>
+                            <li>UI/UX.</li>
+                            <li>Typescript.</li>
+                            <li>2D Animation videos. Computer networking.</li>
+                            <li>Keyword Research.</li>
+                            <li>Python (In Progress).</li>
+                            <li>App Designing.</li>
+                            <li>Problem Solving, Critical Thinking, Customer Relation</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="projects" id="projects">
+                    <h3>Projects</h3>
+                    <img src="pro.png" alt="Toggle" class="toggle-button" onclick="toggleSection('projectsDetails')">
+                    <div id="projectsDetails">
+                        <p><strong><a href="https://github.com/Bisal-Shafiq/Quiz_game">Quiz Game:</a></strong> - (Project Link to see the code on GitHub) <br> Based on Python command line Programming where we use conditions and calculate scores.</p>
+                    <p><strong><a href="https://github.com/Bisal-Shafiq/Event_Agent"> Event Agent:</a></strong> - (Project Link to see the code on GitHub) <br> With teacher guidance, this project uses AI to suggest event dresses. It's based on an expert system called Expert Event Agent, guiding users on available dresses for different events using SWIProlog. </p>
+                    <p><strong><a href="https://github.com/Bisal-Shafiq/villag_toure_game">Village Tour Game in unity:</a></strong> - (Project Link to see the code on GitHub)   <br> Game based on collecting coins, avoid obstacle and maintain their scores.</p>
+                    <p><strong><a href="https://github.com/Bisal-Shafiq/CurPets">CuraPets application and website.</a></strong> - (Project Link to see the code on GitHub) <br> CuraPets provide facilities for pets and streets animals and focus on improving access to veterinary healthcare’s. CuraPets website is provide information about application. Its our final year group project. Website based on HTML, CSS, Bootstrap, JavaScript and PHP. And Application based on Android Studio.</p> 
+                    </div>
+                </section>
+            </div>
+
+        </div>
+
+        <button class="button"> <i class="fab fa-google-play"> <a href="form.html" style="color: bisque;" ></i> Create Resume </a></button>
+        
+        
+
+    </div>
+    <footer>
+        <p>&copy; 2024 Bisal Shafiq. All rights reserved.</p>
+    </footer>
+
+
+    
+
+
+
+    <script>
+        function toggleSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            if (section.style.display === 'none') {
+                section.style.display = 'block';
+            } else {
+                section.style.display = 'none';
+            }
+        }
+    </script>
+
+
+
+
+</body>
+</html>
